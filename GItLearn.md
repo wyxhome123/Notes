@@ -9,7 +9,7 @@
 - git restore  
 - git branch -c branch_name
 - git switch
-- rm file_name
+- git rm file_name
 
 git相关操作图形展示:
 ![git_workspace](/images/git_area.jfif)
@@ -47,3 +47,9 @@ git rm file_name:删除版本库中的文件
 >1. rm file_name
 >1. git rm file_name
 >1. git commit -m "delete file_name"
+
+>如果想要回复从本地库删除的文件，可以用如下命令:
+>
+>1. git restore --staged file_name
+>1. git restore file_name
+
