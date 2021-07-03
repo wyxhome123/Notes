@@ -48,8 +48,7 @@ git rm file_name:删除版本库中的文件
 >1. git rm file_name
 >1. git commit -m "delete file_name"
 
->如果想要回复从本地库删除的文件，可以用如下命令:
+>如果误删了文件,但没有commit的情况下可以用下列命令恢复:
 >
->1. git restore --staged file_name
 >1. git restore file_name
 
