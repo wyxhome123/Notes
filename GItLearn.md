@@ -6,10 +6,9 @@
 - git add
 - git commit -m "..."  
 - git status
-- git checkout
 - git restore  
-- git switch
 - git branch -c branch_name
+- git switch
 
 git相关操作图形展示:
 ![git_area](/images/git_area.jfif)
@@ -38,4 +37,6 @@ git status:显示当前git信息，比如所处分支,与哪个远程仓库建�
 >>>        new file:   GItLearn.md
 >>>        new file:   images/git_area.jfif
 
+git branch -c name: 创建一个新的分支
+git switch name:切换到另一个分支
 
