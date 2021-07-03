@@ -9,10 +9,11 @@
 - git restore  
 - git branch -c branch_name
 - git switch
+- rm file_name
 
 git相关操作图形展示:
-![git_area](/images/git_area.jfif)
-图片来自[这里](https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576)
+![git_workspace](/images/git_area.jfif)
+图片来自[廖雪峰老师的教程](https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576)
 git init: 把当前文件夹作初始化为Git仓库  
 git add file_name: 把对应文件添加到暂存区  
 git commit -m "message": 把暂存区的改动提交到本地版本库中
@@ -39,4 +40,10 @@ git status:显示当前git信息，比如所处分支,与哪个远程仓库建�
 
 git branch -c name: 创建一个新的分支
 git switch name:切换到另一个分支
+git rm file_name:删除版本库中的文件
+//删除文件一般先用rm命令删除本地文件，再用git rm删除版本库中的文件
+一般经过如下三步:
 
+>1. rm file_name
+>1. git rm file_name
+>1. git commit -m "delete file_name"
