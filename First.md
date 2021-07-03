@@ -63,12 +63,11 @@ printf("%d", 5);
 
 asdasdasa`print(hello)`sdas
 
-
 - [x] this is task
 - [ ] this is another
 - [x] list syntaxlist syntax required (any unordered or ordered list supported)
 
-- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] @mentions, #refs, [links](http://github.com), **formatting**, and ~~tags~~ supported
 
 Content [^1]
 
